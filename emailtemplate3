@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="format-detection" content="telephone=no"> 
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700,800,900" rel="stylesheet">
+    
+  <style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			background-color:#fff;
+			width:100%;
+			font-family:'Muli',sans-serif;
+		}
+		table,tr,th{
+			border:0;
+			border-collapse:collapse;
+		}
+		tr{
+			width: 100%;
+		}
+		th{
+			width: 100%;
+			text-align:center;
+		}
+
+		.firstblock{
+			height: 400px;
+		}
+
+		h1{
+			font-size:30pt;
+			font-weight:800;
+			padding-bottom:15px;
+		}
+		p{
+			font-size:14pt;
+			width:60%;
+			margin-left:20%;
+			margin-right:20%;
+			font-weight:400;
+			padding-bottom: 30px;
+		}
+		.blue{
+			color:#0061cf;
+		}
+		.white{
+			color:#fff;
+			text-shadow:10px 10px 50px #000,-10px -10px 50px #000;
+		}
+		.logo{
+			margin-left:3%;
+			height:30px;
+			float:left;
+			display:block;
+		}
+		.header{
+			letter-spacing:3px;
+			font-weight:700;
+			width: 100%;
+			height:60px;
+		}
+		.skimny{
+			text-align:center;
+			margin-left:-30px;
+		}
+		.header,.footer{
+			background-color:#0062cf;
+			color:#ffffff;
+			text-align:center;
+		}
+		.footer{
+			height:80px;
+			font-weight:100;;
+			width: 1200px;
+		}
+		h2{
+			font-weight:700;
+			letter-spacing:3px;
+			font-size:10pt;
+			padding-bottom:15px;
+		}
+		.viewwork{
+			color:#fff;
+			border:2px solid #fff;
+			padding:10px;
+			font-size:10pt;
+		}
+		.viewwork:hover{
+			text-shadow:none;
+		}
+		a{
+			text-decoration:none;
+		}
+
+		.banner{
+			width: 100%;
+		}
+
+
+		@media screen and (max-width: 650px) {
+			.header{
+				font-size: 14pt;
+			}
+
+			.footer{
+				font-size: 10pt;
+			}
+
+			h1{
+				font-size: 24pt;
+				margin-left: 30px;
+				margin-right: 30px;
+			}
+
+			p{
+				font-size: 14pt;
+				width: 90%;
+				margin-left: 5%;
+				margin-right: 5%;
+				
+			}
+
+			.banner{
+				width: 250%;
+				margin-left: -75%;
+			}
+
+
+
+        }
+
+
+
+        }
+
+</style></head>
+  <body>
+    <table>
+      <!-- header -->
+      <tr>
+        <td class="header">
+          <img class="logo" src="https://www.dropbox.com/s/ejoz3i2ows6vbeb/edelman_logo.png?raw=1" alt="edelman_logo.png?raw=1">
+          <span class="skimny">SKIM NY</span>
+        </td>
+      </tr>
+      <!-- 1st block -->
+      <tr class="firstblock">
+        <th>
+          <h1>
+            <span class="blue">Big Ideas</span> from the <span class="blue">Big Apple</span>.</h1>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ultrices volutpat diam vel porttitor. Mauris hendrerit nisl tellus, eget consectetur ante efficitur quis.</p>
+            <img class="signature" src="https://www.dropbox.com/s/ek9lj671pn9alas/signature.png?raw=1" alt="signature.png?raw=1">
+          </th>
+        </tr>
+         </table>
+        <!-- 2nd block -->
+
+			<a target="_blank" href="http://google.com"><img class="banner" src="https://www.dropbox.com/s/kop3c8j60hhficf/marshalls_banner.jpg?raw=1"></a>
+			<br>
+        
+           <!-- 3rd block -->
+
+			<a target="_blank" href="http://google.com"><img class="banner" src="https://www.dropbox.com/s/uijpad1j8057znb/comcast_banner.jpg?raw=1"></a>
+			<br>
+
+           <!-- 4th block -->
+
+			<a target="_blank" href="http://google.com"><img class="banner" src="https://www.dropbox.com/s/3k9z6l2tslmdw9o/eyelove_banner.jpg?raw=1"></a>
+			<br>
+
+
+        <!-- footer -->
+         <table>
+        <tr>
+          <th class="footer">FOR INTERNAL USE ONLY. DO NOT FORWARD.</th>
+        </tr>
+      </table>
+    </body>
+  </html>
